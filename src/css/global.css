@@ -1,0 +1,340 @@
+.maindiv {
+  margin-top: -18px;
+  background-color: #f2f2f2;
+  /* height: 100vh; */
+}
+
+a {
+  text-decoration: none !important;
+}
+.searchButton{
+  /* background-color: #78f75e !important; */
+  background-color: #004256 !important;
+  color: #fff !important;
+}
+.selectionDiv{
+  background-color: #fff;
+}
+.floatLeft{
+  float: left;
+}
+.floatRight{
+  float: right;
+}
+.selectedRowDiv{
+  margin-top: 10px;
+}
+.headingDiv{
+  
+  display: flex;  
+  margin-bottom: 13px;
+}
+/* Naviagtion */
+
+.sideMenu {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* bottom navigation */
+
+.bottomMenu {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.bottomNavbar {
+  background-color: #fff;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottomNavDiv {
+  height: 30px;
+  width: 25%;
+  position: absolute;
+}
+.logowo{
+  width: 50px;
+  height: 50px;
+}
+.logoDiv{
+  display: flex;
+}
+/* Style the links inside the navigation bar */
+
+.bottomNavbar a {
+  float: left;
+  display: block;
+  /* color: #575757; */
+  text-align: center;
+  padding: 10px 0 5px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  height: 30px;
+}
+
+/* backgraiund */
+
+.MuiAppBar-colorPrimary {
+  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 14, 1) 59%, rgba(0, 212, 255, 1) 100%);
+   */
+   background-color:#004256 !important;
+}
+
+.Background {
+  background-color: aliceblue;
+  height: 1100px;
+}
+
+.makeStyles-content-16 {
+  padding: 20px 0 0 0 !important;
+}
+
+.MuiListItem-gutters {
+  padding: 15px 16px 15px 22px !important;
+}
+
+.is-active>div {
+  background-color: #eee;
+  color: #004256;
+}
+
+.is-active {
+  background-color: #eee;
+}
+
+/* Home */
+
+.categoryList {
+  display: flex;
+  /* background-color: #eee; */
+  margin: 0;
+  /* padding: 10px; */
+}
+
+.category {
+  border-radius: 27px;
+  padding: 5px 10px 5px;
+  border: 2px solid pink;
+  margin: 5px;
+}
+
+.category:hover {
+  background-color: rgb(189, 189, 189);
+  border: 2px solid #333;
+}
+
+.categoryTitle {
+  font-size: 1.7em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.categoryDiv {
+  padding-top: 15px;
+  margin: 15px;
+}
+
+.chip {
+  width: 200px;
+  justify-content: left !important;
+  border: none !important;
+}
+
+/* video detail page */
+
+.VideoPlaye {
+  width: 100% !important;
+  height: 70vh !important;
+}
+
+.HomeContainerGridContent {
+  margin: 0;
+  padding-top: 0 !important;
+  color: #333 !important;
+}
+
+.videoTitle {
+  font-weight: 550;
+  font-size: 1.2em;
+}
+
+.videoArtist {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+/* trnedin css */
+
+.box1 {
+  width: 70%;
+  height: 150px;
+  background-color: #f1f3f6;
+  display: inline-block;
+  margin-left: 13%;
+  align-items: center;
+  border-radius: 40px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #ccc;
+}
+
+.box1:hover {
+  box-shadow: 1px 1px 1px #ccc, 1px 1px 1px #ccc;
+}
+
+.trendingIcon {
+  padding: 12px 14px 8px;
+  font-size: 5.5em !important;
+}
+
+.trendingIconDiv {
+  /* margin: 9px 10px 10px 41px; */
+  margin: auto !important;
+  text-align: center;
+}
+
+.trendingName {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Artist  */
+
+.ArtistHeroContent {
+  padding: 24px 0px 48px;
+  background: linear-gradient(rgb(156, 156, 156), #fafafa);
+}
+
+.ATMTitle {
+  font-size: 2.3em;
+  font-weight: 500;
+}
+
+.ATMBox {
+  width: 70%;
+  height: 50px;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #333, 2px 2px 5px #333;
+  transition: 0.4s;
+}
+
+.ATMBox:hover {
+  /* box-shadow: 1px 1px  1px #ccc, 1px 1px  1px  #ccc; */
+  width: 100%;
+  transition: 0.4s ease-in-out;
+}
+
+.ATMPic {
+  height: 200px;
+}
+
+.ATMPicDiv {
+  margin: auto !important;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.ATMFeatured {
+  height: 200px;
+  width: 100%;
+}
+
+.ATMName {
+  text-align: center;
+  margin-top: 05px;
+  padding-top: 10px;
+}
+
+.ATMContentBox {
+  height: 200px;
+}
+
+.ArtistContentGrid {
+  margin: 30px;
+}
+
+.ArtistGrids {
+  margin-bottom: 25px;
+}
+
+.ATMDescriptionDiv {
+  margin: 10px;
+}
+
+/* Home screen */
+
+@media (max-width: 960px) {
+  
+  .HomeContainer {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    margin: 0 !important;
+    width: 100% !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .HomeContainer>.HomeContainerGrid {
+    flex: 0 0 auto !important;
+    margin-right: 3px !important;
+    padding: 16px 5px !important;
+  }
+  
+  .HomeContainer::-webkit-scrollbar {
+    display: none !important;
+  }
+  .categoryList {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    margin: 0 !important;
+    width: 100% !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .category {
+    border-radius: 27px;
+    padding: 5px 10px 5px;
+    border: 2px solid pink;
+    margin: 5px;
+  }
+  .categoryList::-webkit-scrollbar {
+    display: none !important;
+  }
+  .VideoPlaye {
+    height: 360px !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .HomeContent {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .ATMBox {
+    margin: auto !important;
+  }
+}
+
+.heading{
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* scheduler style */
+/* .OverlayBase-absolutePosition-68{ */
+[class*='OverlayBase-absolutePosition']{ 
+  position:  fixed !important;
+}
